@@ -14,7 +14,7 @@ def main():
         st.write(file_details)
 
     # Load model
-    with open('model.pickle', 'rb') as f:
+    with open('model/model.pickle', 'rb') as f:
         model = pickle.load(f)
 
     # File manipulations
