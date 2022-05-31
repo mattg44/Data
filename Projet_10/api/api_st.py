@@ -14,8 +14,7 @@ if uploaded_file is not None:
     st.write(file_details)
 
 # Load model
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model = pickle.load(open("model.pkl", "rb"))
 
 # File manipulations
 if uploaded_file is not None:
