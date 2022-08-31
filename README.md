@@ -3,14 +3,15 @@
 ### Power consumption prediction for public buildings in Seattle
 Data from [Kaggle](https://www.kaggle.com/datasets/city-of-seattle/sea-building-energy-benchmarking) <br>
 Cleaning, EDA, modeling (ExtraTreesRegressor, XGBoostRegressor).<br>
-Notebook
+[Notebook](https://github.com/mattg44/Data/tree/main/Seattle_buildings)
 ### Customers segmentation for a brazilian e-shop
 Data from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&select=olist_customers_dataset.csv) <br>
 RFM analysis<br>
-Notebook
+[Notebook](https://github.com/mattg44/Data/tree/main/Brazilian_eshop)
 ### NLP classification on description for the indian Amazon
 Data from [Kaggle](https://www.kaggle.com/datasets/mamependaleye/flipkart) <br>
-NLP category prediction with Spacy
+NLP category prediction with Spacy.<br>
+[Notebook](https://github.com/mattg44/Data/tree/main/Indian_amazon)
 # OC Data projects<br>
 Projects realised (python) during the OC data analyst course (2022).<br>
 ### P3 - Real estate mySQL database<br>
