@@ -12,29 +12,25 @@ class_names = ["bacterial spot", "early blight", "healthy tomato, no disease", "
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model("model_nolf.h5")
-    return model
-
-
-with st.spinner('Model is being loaded..'):
-    model = load_model()
-
-file = st.file_uploader("Please upload an image", type=["jpg", "png", "jpeg"])
+    cnn_model = tf.keras.models.load_model("model_nolf.h5")
+    return cnn_model
 
 
 def resize(image_data):
     size = (128, 128)
     image_to_resize = np.array(ImageOps.fit(image_data, size=size, method=Image.ANTIALIAS))
     image_to_resize = image_to_resize.reshape(-1, 128, 128, 3) / 255
-    # img_resize = (cv2.resize(image, dsize=(34, 34), interpolation=cv2.INTER_CUBIC)) / 255.
     return image_to_resize
 
+
+file = st.file_uploader("Please upload an image", type=["jpg", "png", "jpeg"])
 if file is None:
     st.text("Please upload an image file")
 else:
     image = Image.open(file)
     st.image(image)
     resized_image = resize(image)
+    model = load_model()
     predictions = model.predict(resized_image)
     score = np.argmax(predictions)
     st.subheader(f"Deseases: {class_names[score]} with a confidence of {np.max(predictions) * 100:.2f} %")
