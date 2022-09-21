@@ -15,7 +15,7 @@ NLP category prediction with Spacy.<br>
 # OC Data projects<br>
 Projects realised (python) during the OC data analyst course (2022).<br>
 ### P3 - Real estate mySQL database<br>
-[Pricing estate model](https://github.com/mattg44/Data/tree/main/projet_3) through DVF (Demandes de valeurs foncières) open data.<br>
+[Pricing estate model](https://github.com/mattg44/Data/tree/main/Projet_3) through DVF (Demandes de valeurs foncières) open data.<br>
 - mySQL database creation (UML diagram, power architect)
 - data preprocessing (python script) to automatically feed the database
 - SQL queries
