@@ -27,7 +27,7 @@ Projects realised (python) during the OC data analyst course (2022).<br>
 [Time series](https://github.com/mattg44/Data/tree/main/Projet_6), customers classification, correlations and statistical test hypothesis.<br>
 ### P8 - World drinking water analysis with Tableau<br>
 Different granularity (world, continent, country) analysis to help stakeholders for choosing next NGO projects.<br>
-[Public tableau](https://public.tableau.com/app/profile/gimbert/viz/projet8_16469920605950/Histoire1?publish=yes)
+[Public tableau](https://public.tableau.com/app/profile/gimbert/viz/Projet8_16469920605950/Histoire1)
 ### P9 - Marketing study<br>
 [Data-driven marketing study](https://github.com/mattg44/Data/tree/main/Projet_9) to help a company choosing its export markets.<br>
 Data collection (FAO, WTO...), EDA, featuring, hierarchical and k-means clustering (countries to be targeted), PCA.<br>
