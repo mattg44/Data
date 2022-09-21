@@ -12,7 +12,7 @@ class_names = ["bacterial spot", "early blight", "healthy tomato, no disease", "
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model("model/model_nolf.h5")
+    model = tf.keras.models.load_model("/model/model_nolf.h5")
     return model
 
 
