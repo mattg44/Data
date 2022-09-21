@@ -1,5 +1,8 @@
 
 # Personal data projects<br>
+### [Tomato diseases detector]()
+CNN built with dData from [kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf)
+Detect tomato deseases with an image of a tomato leaf thanks to CNN. Streamlit webapp.<br>
 ### Power consumption prediction for public buildings in Seattle
 Data from [Kaggle](https://www.kaggle.com/datasets/city-of-seattle/sea-building-energy-benchmarking) <br>
 Cleaning, EDA, modeling (ExtraTreesRegressor, XGBoostRegressor).<br>
