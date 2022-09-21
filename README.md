@@ -1,20 +1,17 @@
 
 # Personal data projects<br>
 ### [Tomato diseases detector]()
-CNN built with dData from [kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf)
-Detect tomato deseases with an image of a tomato leaf thanks to CNN. Streamlit webapp.<br>
-### Power consumption prediction for public buildings in Seattle
+CNN built with data from [kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf)
+<br>Detect tomato deseases with an image of a tomato leaf thanks to CNN. Streamlit webapp.<br>
+### [Power consumption prediction for public buildings in Seattle](https://github.com/mattg44/Data/tree/main/seattle_buildings)
 Data from [Kaggle](https://www.kaggle.com/datasets/city-of-seattle/sea-building-energy-benchmarking) <br>
 Cleaning, EDA, modeling (ExtraTreesRegressor, XGBoostRegressor).<br>
-[Notebook](https://github.com/mattg44/Data/tree/main/seattle_buildings)
-### Customers segmentation for a brazilian e-shop
+### [Customers segmentation for a brazilian e-shop](https://github.com/mattg44/Data/tree/main/brazilian_eshop)
 Data from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&select=olist_customers_dataset.csv) <br>
 RFM analysis<br>
-[Notebook](https://github.com/mattg44/Data/tree/main/brazilian_eshop)
-### NLP classification on description for the indian Amazon
+### [NLP classification on description for the indian Amazon](https://github.com/mattg44/Data/tree/main/Indian_amazon)
 Data from [Kaggle](https://www.kaggle.com/datasets/mamependaleye/flipkart) <br>
 NLP category prediction with Spacy.<br>
-[Notebook](https://github.com/mattg44/Data/tree/main/Indian_amazon)
 # OC Data projects<br>
 Projects realised (python) during the OC data analyst course (2022).<br>
 ### P3 - Real estate mySQL database<br>
