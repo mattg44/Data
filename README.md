@@ -9,7 +9,7 @@ Cleaning, EDA, modeling (ExtraTreesRegressor, XGBoostRegressor).<br>
 ### [Customers segmentation for a brazilian e-shop](https://github.com/mattg44/Data/tree/main/Brazilian_eshop)
 Data from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&select=olist_customers_dataset.csv) <br>
 RFM analysis<br>
-### [NLP classification on description for the indian Amazon](https://github.com/mattg44/Data/tree/main/Indian_amazon)
+### [NLP classification on product description for the indian Amazon](https://github.com/mattg44/Data/tree/main/Indian_amazon)
 Data from [Kaggle](https://www.kaggle.com/datasets/mamependaleye/flipkart) <br>
 NLP category prediction with Spacy.<br>
 # OC Data projects<br>
