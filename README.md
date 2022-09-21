@@ -3,6 +3,7 @@
 ### [Tomato diseases detector](https://github.com/mattg44/Data/tree/main/tomato_project)
 CNN built with data from [kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf)
 <br>Detect tomato deseases with an image of a tomato leaf thanks to CNN. Streamlit webapp.<br>
+[Webapp](https://mattg44-data-tomato-projectmain-b8ehxl.streamlitapp.com/)
 ### [Power consumption prediction for public buildings in Seattle](https://github.com/mattg44/Data/tree/main/Seattle_buildings)
 Data from [Kaggle](https://www.kaggle.com/datasets/city-of-seattle/sea-building-energy-benchmarking) <br>
 Cleaning, EDA, modeling (ExtraTreesRegressor, XGBoostRegressor).<br>
