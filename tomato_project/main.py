@@ -9,13 +9,10 @@ st.subheader("Upload an image of a tomato leaf (clear background required)")
 class_names = ["bacterial spot", "early blight", "healthy tomato, no disease", "late blight", "leaf mold",
                "septoria leaf spot", "red spider mites", "target spot", "mosaic virus", "yellow leaf curf virus"]
 
-import os
-root = os.path.dirname(__file__)
-st.text(root)
 
-'''@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def load_model():
-    cnn_model = tf.keras.models.load_model("model_nolf.h5")
+    cnn_model = tf.keras.models.load_model("/app/data/tomato_project/model_nolf.h5")
     return cnn_model
 
 
@@ -37,4 +34,3 @@ else:
     predictions = model.predict(resized_image)
     score = np.argmax(predictions)
     st.subheader(f"Deseases: {class_names[score]} with a confidence of {np.max(predictions) * 100:.2f} %")
-'''
