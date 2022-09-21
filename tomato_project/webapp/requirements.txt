@@ -88,7 +88,6 @@ parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pathy==0.6.2
 patsy==0.5.2
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.1.1
 preshed==3.0.6
 prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
 promise==2.3
